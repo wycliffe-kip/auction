@@ -8,7 +8,7 @@ function Nav() {
   const { currentUser, logout } = useContext(AuthContext)
 
   return (
-    <nav className="container navbar sticky-top navbar-light bg-light">
+    <nav className="navbar sticky-top navbar-light bg-light" style={{backgroundColor:"green"}}>
       <div className="container-fluid">
         <div className="navbar-brand">
           <img src={logoImg} alt="logo" height={75} />

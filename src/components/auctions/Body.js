@@ -14,7 +14,7 @@ export const AuctionBody = () => {
 
   return (
     <div className="py-5">
-      <div className="container">
+      <div className="">
         {auction && <ProgressBar auction={auction} setAuction={setAuction} />}
 
         {globalMsg && <Alert variant='info'>{globalMsg}</Alert>}

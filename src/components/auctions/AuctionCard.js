@@ -11,7 +11,7 @@ const Renderer = ({ days, hours, minutes, seconds, completed, props, showMore, h
 
   return (
     <div className='col'>
-      <div className='card shadow-sm'>
+      <div id='card' className='card shadow-sm'>
         <div
           style={{
             height: '320px',
@@ -23,7 +23,7 @@ const Renderer = ({ days, hours, minutes, seconds, completed, props, showMore, h
           className='w-100'
         />
         <div className='card-body'>
-          <p className='lead display-6'>{props.item.title}</p>
+          <p className='lead display-5'>{props.item.title}</p>
           <div className='d-flex justify-content-between align-item-center'>
             <h5>
               {hours} hrs {minutes} mins {seconds} sec

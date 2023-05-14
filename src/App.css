@@ -1,0 +1,46 @@
+body h1{
+  color: #08251d;
+}
+body {
+  background-color: #68B984;
+}
+
+
+#hero {
+  background-color: #FED049;
+  box-shadow: #CFFDE1;
+}
+
+
+#hero img{
+  border-radius: 2rem;
+}
+
+#card {
+  background-color: #CFFDE1;
+  padding: 10px;
+}
+
+#footer {
+  background-color: #3D5656;
+  padding: 5em;
+}
+
+#footer h1 {
+    font-family: ;
+    font-size: 13px;
+    color: #c8e280;
+    padding-top: 1.5em;  
+  }
+
+  .card {
+    background-color: #FED049;
+    border-radius: 1.5rem;
+  }
+#content {
+  padding: 1rem;
+}
+  #content span {
+    font-size: 2rem;
+    padding: 1rem;
+  }
